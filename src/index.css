@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    padding: 10%;
+}
+
+table,th,td{
+    width: 50%;
+    height: fit-content;
+    border-collapse: collapse;
+    /* background-color: yellow; */
+}
+
+th, td{
+    border-bottom: 1px solid;
+    padding-inline: 5px;
+    height: 2rem;
+    text-align: left;
+}
+
+form{
+    width: 50%;
+}
+
+input{
+    outline: none;
+    border-radius: 10px;
+    background-color: '#EEEDEB';
+    padding: 3px 7px;
+    height: 2rem;
+    width: 50%;
+}
+
+label{
+    display: block;
+}
+
+button{
+    width: 50%;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #071952;
+    color: #EEEDEB;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.form-element{
+    margin-top: 5px;
+}
